@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> <!-- padrão que aceita caracteres acentuados-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/main.css">
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+    
+    <title>NETFLIX CLONE</title>
+</head>
+<body>
+    <!--definir tag semântica, pensar em formato de caixas
+    quadrados, dentro dos quais existem vários elementos
+    (td aqui são divs, mas esclarecido pro programador)-->
+    <header>
+        <!--aqui vai o menu de navegação (navbar) e logo-->
+        <div class="container">
+            <h2 class="logo">
+                <i class="far fa-snowflake"></i>
+                WINTERFLIX
+            </h2>
+            <nav>
+                <a href="#">Início</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+            
+        </div>
+    </header>
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">WINTER'S LAKE</h3>
+                <p class= "descricao">O adolescente Tom (Anson Boon) e sua mãe conturbada (Charlie Murphy) se encontram em uma fazenda desolada na Irlanda. Enquanto a água desce em um lago sazonal nas proximidades, Tom faz uma descoberta aterrorizante que atrai ele e sua mãe para uma aliança desconfortável com a misteriosa vizinha (Emma Mackey) e seu pai protetor (Michael McElhatton). À medida que os segredos sombrios sobem à luz, todos os quatro serão alterados para sempre e Tom emergirá nas duras realidades da vida adulta. </p>
+                <div class= "botoes">
+                    <button role = "button" class="botao">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role = "button" class="botao">
+                        <i class="fas fa-info"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class=box-filme src = "resources/mini1.jpg" alt = "" srcset="">
+            </div>
+            <div class="item">
+                <img class=box-filme src = "resources/mini2.jpg" alt = "" srcset="">
+            </div>
+            <div class="item">
+                <img class=box-filme src = "resources/mini3.jpg" alt = "" srcset="">
+            </div>
+            <div class="item">
+                <img class=box-filme src = "resources/mini4.jpg" alt = "" srcset="">
+            </div>
+            <div class="item">
+                <img class=box-filme src = "resources/mini5.jpg" alt = "" srcset="">
+            </div>
+            <div class="item">
+                <img class=box-filme src = "resources/mini6.jpg" alt = "" srcset="">
+            </div>
+            <div class="item">
+                <img class=box-filme src = "resources/mini7.jpg" alt = "" srcset="">
+            </div>
+            <div class="item">
+                <img class=box-filme src = "resources/mini8.jpg" alt = "" srcset="">
+            </div>
+            <div class="item">
+                <img class=box-filme src = "resources/mini9.jpg" alt = "" srcset="">
+            </div>
+            <div class="item">
+                <img class=box-filme src = "resources/mini10.jpg" alt = "" srcset="">
+            </div>
+            </div>          
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/7a3d9686b5.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/setup.js"></script>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
